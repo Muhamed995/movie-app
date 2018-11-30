@@ -1,0 +1,110 @@
+.search-landing{
+  height: 80vh;
+  width: 100%;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  background-image: url('../../assets/images/popcorn.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index:1;
+  position: relative;
+}
+
+.buttons{
+  position: absolute;
+  top: 12%;
+  left: 21%;
+}
+.movieBtn{
+ padding: 8px 20px 8px 20px;
+ margin-bottom: 10px;
+ margin-right: 15px;
+ background: #E50914;
+ border: 1px solid #eee;
+ border-radius: 11px;
+ color: white;
+ font-size: 19px;
+}
+
+
+.searchbar-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 3;
+}
+
+
+
+.title-header{
+  margin: 0;
+  color: red;
+}
+
+.searchbar, .search-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  outline: none;
+  margin: 0;
+  padding: 0;
+  height: 25px;
+  z-index: 3;
+  
+}
+
+
+.searchbar{
+  height: 40px;
+  width: 50vw;
+  padding-left: 10px;
+  font-size: 28px;
+  border-radius: 0px 20px 20px 0px;
+}
+
+.search-btn{
+  height: 40px;
+  width: 100px;
+  margin: 15px;
+  padding: 5px;
+  border: none;
+  outline: none;
+  background: #D51616;
+  color: #F2F2F2;
+  font-size: 16px;
+  border-radius: 20px 0px 0px 20px;
+  z-index: 5;
+}
+.movieBtn:hover{
+   transition: all ease 0.3s !important;
+  cursor: pointer !important;
+  background: red !important ;
+  box-shadow: 0px 0px 10px 0px #FFF !important;
+}
+
+
+.search-btn:hover{
+  transition: all ease 0.3s !important;
+  cursor: pointer !important;
+  background: red !important ;
+  box-shadow: 0px 0px 10px 0px #FFF !important;
+}
+ 
+#naslov{
+  
+  font-size: 60px;
+  font-weight: normal;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 0;
+  color: #E50914;
+  
+  z-index: 5;
+}

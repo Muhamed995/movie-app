@@ -1,25 +1,39 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+
+import Router from './router.js';
+
 import './App.css';
 
 class App extends Component {
+/*
+  constructor(){
+    super();
+    this.state={
+      moviesList:[]
+    }
+  }
+
+  componentWillMount(){
+    axios.get('http://localhost:3001/api/movies').then(response =>{
+      console.log(response.data);
+      this.setState({ moviesList:response.data.results })
+    })
+  }
+
+  */
   render() {
+    /*
+    const imgURL = 'https://image.tmdb.org/t/p/original'
+    const movies = this.state.moviesList.map((movie,index)=>{
+
+    })
+    */
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        
+       
+        
+        { Router }
       </div>
     );
   }
